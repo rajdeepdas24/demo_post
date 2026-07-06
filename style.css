@@ -219,7 +219,7 @@ body{
 .details{
     text-align: start;
 }
-.testimonals{
+.testimonials{
     height: 46rem;
     background: linear-gradient(rgba(0,0,0,0.8),
     rgba(0,0,0,0.8)),url('https://imgs.search.brave.com/4ULLFBI0rkhIZzHpgiyR-Cc69D7BzRELR4bTb_9ZEGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM2/ODM4NDI5My9waG90/by9pdHMtcGl6emEt/b2Nsb2NrLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1zdmxp/b3JBdXY1RkdWdXJu/SVFDX2ozeW1zWWlo/MDFuYUd3bWphZ3c3/YUFRPQ') center/cover;
@@ -229,11 +229,11 @@ body{
     justify-content: center;
     /* align-items: center; */
 }
-.testimonals h1{
+.testimonials h1{
     margin-bottom: 1rem;
     text-align: center;
 }
-.testimonals h2{
+.testimonials h2{
     width: 20rem;
     margin-left: 30rem;
     text-align: center;
@@ -461,12 +461,12 @@ footer{
         justify-items: center;
         padding-bottom: 10rem;
     }
-    .testimonals{
+    .testimonials{
         width: 63rem;
         height: auto;
         padding: 4rem 2rem;
     }
-    .testimonals h2{
+    .testimonials h2{
         margin: 1rem auto;
     }
     .reviews{
@@ -552,6 +552,7 @@ footer{
     flex-direction: column;
     position: absolute;
     top: 100%;
+    /* bottom: 10rem; */
     right: 0;
     width: 230px;      
     /* height: 100vh; */
@@ -560,9 +561,6 @@ footer{
     margin: 0;
     list-style: none;
     box-shadow: 3px 0 10px rgba(0,0,0,0.4);
-}
-.right-navbar.active{
-    display: flex;
 }
 .right-navbar.active{
     display: flex;
@@ -602,6 +600,129 @@ footer{
     margin: 0;
 }
 .howitworks{
+    height: 67rem;
+    display: flex;
     flex-direction: column;
+    gap: 2rem;
+}
+.left-working{
+    margin-left: -1rem;
+}
+.right-working{
+    margin-left: 4rem;
+    width: 20rem;
+    height: 38rem;
+}
+.download-img{
+    width: 20rem;
+}
+.store{
+    width: 20rem;
+    margin-left: -4rem;
+}
+.cities{
+    height: 85rem;
+}
+.cities h2{
+    font-size: 1rem;
+    width: 25rem;
+    margin-left: 3rem;
+    border: none;
+}
+.city-details{
+    display: flex;
+    flex-direction: column;
+}
+.city{
+    height: 14rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+.city h4{
+    margin-left: -6rem;
+}
+.testimonials{
+    height: 60rem;
+    justify-content: start;
+}
+.testimonials h1{
+    margin-top: 4rem;
+    font: 1rem;
+    font-size: 1rem;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+    padding-left: 1.5rem;
+    gap: 7rem;
+}
+.testimonoals h2{
+    border-bottom: 2px solid orange;
+    position: relative;
+    left: -20rem;
+    width: 5rem;
+}
+.review h1{
+    font-size: 2rem;
+    margin-bottom: -0.5rem;
+}
+.review p{
+    font-size: 1rem;
+}
+.pricing-plans{
+    height: 110rem;
+}
+.plan-title h1{
+    width: 30rem;
+    font-size: 1rem;
+    margin-left: -7rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+#border{
+    width: 4rem;
+    margin-left: -0.5rem;
+}
+.plans{
+    padding-left: 11.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.serialno{
+    width: 4rem;
+    position: relative;
+    top: 1rem;
+}
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.left-footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -12rem;
+    margin-top: 2rem;
+    
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #f5f7fc;
+    margin-bottom: 2rem;
+}
+.right-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+}
+.socialmedias3{
+    margin-top: -3rem;
+}
+.socialmedias4{
+    margin-top: -1rem;
 }
 }
