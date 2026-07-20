@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-24</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-black text-white h-auto w-full">
+    <header class="flex flex-col justify-center items-center gap-5 mt-5">
+        <h1 class="font-bold text-xl md:text-2xl lg:text4xl xl:text-5xl 2xl:text-6xl">Animations & UI Feedback</h1>
+        <p class="text-gray-500 text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-4xl">Hover, click,and interact with the elements below</p>
+    </header>
+
+    <main class="container mx-auto mt-10 pl-10 pr-10">
+        <div class="flex flex-col gap-5">
+            <h1 class="ml-5 font-bold text-2xl">Built-in Animations</h1>
+            <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+
+                <div class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-5">
+                    <div class="size-10  rounded-full border-4 border-blue-500 border-t-transparent animate-spin"></div>
+                    <div class="text-center">
+                        <h1 class="font-bold">Animate-spin</h1>
+                        <p class="text-gray-400">Loading spinner</p>
+                    </div>
+                </div>
+
+                <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-5">
+                    <div class="size-10 rounded-full bg-green-400 animate-ping"></div>
+                    <div class="text-center">
+                        <h1 class="font-bold">Animate-ping</h1>
+                        <p class="text-gray-400">Notification pulse</p>
+                    </div>  
+                </div>
+
+                <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-">
+                    <div class="size-12 rounded-xl bg-purple-400 animate-pulse mb-3"></div>
+                    <div class="text-center">
+                        <h1 class="font-bold">Animate-pulse</h1>
+                        <p class="text-gray-400">Skeleton loader effect</p>
+                    </div>                    
+                </div>
+
+                <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl">
+                    <div class="size-10 bg-orange-500 rounded-full animate-bounce mb-4"></div>
+                    <div class="text-center">
+                        <h1 class="font-bold">Animate-bounce</h1>
+                        <p class="text-gray-400">Bounce indicator</p>
+                    </div>                   
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="flex flex-col gap-5 mt-10">
+            <h1 class="ml-5 font-bold text-2xl">Button Animations</h1>
+            <div class="grid grid-cols-1 gap-2 w-auto  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+                <div class="flex flex-col justify-center items-center bg-blue-600 h-auto p-3 rounded-2xl font-bold hover:scale-110 transition-transform duration-300 cursor-pointer">Scale effect</div>
+                <div class="flex flex-col justify-center items-center bg-purple-600 h-auto p-3 rounded-2xl font-bold hover:shadow-xl hover:shadow-white hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer">Shadow + scale</div>
+                <div class="flex flex-col justify-center items-center bg-green-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:bg-green-300">Color transition</div>
+                <div class="flex flex-col justify-center items-center bg-orange-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:rotate-5">Rotate effect</div>
+                <div class="flex flex-col justify-center items-center bg-pink-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:-translate-y-2 transition-all duration-300">Lift effect</div>
+                <div class="flex flex-col justify-center items-center bg-cyan-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:shadow-xl hover:shadow-white hover:scale-105 hover:bg-cyan-300 hover:-translate-y-2 transition-all duration-300 ease-in-out">Combined</div>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-5 mt-10 mb-10">
+
+            <h1 class="ml-5 font-bold text-2xl">Card animations</h1>
+
+            <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 xl:grid-cols-3">
+                <div class="flex flex-col bg-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl shadow-white">
+                    <div class="size-10 bg-blue-400 rounded-xl transition-all duration-300 group-hover:"></div>
+                    <div>
+                        <h2 class="font-bold ">Lift & Shadow</h2>
+                        <p class="text-gray-500">hover:translate-y-2 hover:shadow-xl</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:scale-105">
+                    <div class="size-10 bg-green-400 rounded-xl transition-all duration-300 group-hover:rotate-12"></div>
+                    <div>
+                        <h2 class="font-bold">Scale & Rotate</h2>
+                        <p class="text-gray-500">hover:scale-105 group-hover:rotate-12</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-gray-600 border-4 border-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:border hover:border-purple-500">
+                    <div class="size-10 bg-purple-400 rounded-xl transition-all duration-300 group-hover:translate-x-1"></div>
+                    <div>
+                        <h2 class="font-bold">border-reveal</h2>
+                        <p class="text-gray-500">hover:border-purple-500</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+        <div>
+            <h1>Notification Badges</h1>
+        </div>
+        
+    </main>
+</body>
+</html>
