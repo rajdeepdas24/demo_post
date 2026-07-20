@@ -100,8 +100,32 @@
 
         </div>
 
-        <div>
-            <h1>Notification Badges</h1>
+        <div class="flex flex-col gap-5 mt-10 mb-10">
+            <h1 class="ml-5 font-bold text-2xl">Notification Badges</h1>
+            <div class="grid grid-cols-12 gap-30 lg:grid-cols-10 lg:gap-20 xl:grid-cols-9 xl:gap-10 mt-5">
+                <div class="flex flex-col justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
+                    <div class="relative h-15 w-20">
+                        <img src="assests/notification_icon.png" alt="notification_icon_img" class="absolute top-[-30px] right-[37px] xl:top-[-30px] xl:right-[25px]">         
+                        <div class="size-10 bg-red-500 rounded-full absolute top-[-3rem] left-8 animate-ping"></div>
+                    </div>      
+                </div>
+
+                <div class="flex flex-col justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
+                    <div class="relative h-15 w-20">
+                        <img src="assests/message_icon.png" alt="message_icon_img" class="absolute top-[-30px] right-[25px]">
+                        <div class="size-10 bg-red-500 rounded-full absolute top-[-3rem] left-8 animate-pulse text-center z-10">3</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
+                    <div class="relative h-15 w-20">
+                        <img src="assests/email.png" alt="email_icon_img" class="absolute top-[-30px] right-[25px]">
+                        <div class="size-10 bg-red-500 rounded-full absolute top-[-3rem] left-8 animate-bounce text-center z-10">1</div>
+                    </div>
+                </div>
+            </div>
+            
+
         </div>
         
     </main>
