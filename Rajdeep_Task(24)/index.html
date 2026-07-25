@@ -7,21 +7,16 @@
     <link rel="stylesheet" href="output.css">
 
 </head>
-<!-- Heading -->
-<body class="bg-black text-white h-auto w-full">
+<body class="bg-black text-white h-auto w-auto">
     <header class="flex flex-col justify-center items-center gap-5 mt-5">
         <h1 class="font-bold text-xl md:text-2xl lg:text4xl xl:text-5xl 2xl:text-6xl">Animations & UI Feedback</h1>
         <p class="text-gray-500 text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-4xl">Hover, click,and interact with the elements below</p>
     </header>
 
     <main class="container mx-auto mt-10 pl-10 pr-10">
-
-        <!-- Built-in animations -->
-
-        <div class="flex flex-col gap-5">
+        <section class="flex flex-col gap-5">
             <h1 class="ml-5 font-bold text-2xl">Built-in Animations</h1>
             <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-
                 <div class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-5">
                     <div class="size-10  rounded-full border-4 border-blue-500 border-t-transparent animate-spin"></div>
                     <div class="text-center">
@@ -29,7 +24,6 @@
                         <p class="text-gray-400">Loading spinner</p>
                     </div>
                 </div>
-
                 <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-5">
                     <div class="size-10 rounded-full bg-green-400 animate-ping"></div>
                     <div class="text-center">
@@ -37,7 +31,6 @@
                         <p class="text-gray-400">Notification pulse</p>
                     </div>  
                 </div>
-
                 <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl gap-">
                     <div class="size-12 rounded-xl bg-purple-400 animate-pulse mb-3"></div>
                     <div class="text-center">
@@ -45,7 +38,6 @@
                         <p class="text-gray-400">Skeleton loader effect</p>
                     </div>                    
                 </div>
-
                 <div  class="flex flex-col justify-center items-center bg-gray-600 h-auto p-8 rounded-2xl">
                     <div class="size-10 bg-orange-500 rounded-full animate-bounce mb-4"></div>
                     <div class="text-center">
@@ -53,30 +45,23 @@
                         <p class="text-gray-400">Bounce indicator</p>
                     </div>                   
                 </div>
-                
             </div>
-        </div>
+        </section>
 
-        <!-- Button Animations -->
 
-        <div class="flex flex-col gap-5 mt-10">
+        <section class="flex flex-col gap-5 mt-10">
             <h1 class="ml-5 font-bold text-2xl">Button Animations</h1>
             <div class="grid grid-cols-1 gap-2 w-auto  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-                <div class="flex flex-col justify-center items-center bg-blue-600 h-auto p-3 rounded-2xl font-bold hover:scale-110 transition-transform duration-300 cursor-pointer">Scale effect</div>
-                <div class="flex flex-col justify-center items-center bg-purple-600 h-auto p-3 rounded-2xl font-bold hover:shadow-xl hover:shadow-white hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer">Shadow + scale</div>
-                <div class="flex flex-col justify-center items-center bg-green-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:bg-green-300">Color transition</div>
-                <div class="flex flex-col justify-center items-center bg-orange-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:rotate-5">Rotate effect</div>
-                <div class="flex flex-col justify-center items-center bg-pink-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:-translate-y-2 transition-all duration-300">Lift effect</div>
-                <div class="flex flex-col justify-center items-center bg-cyan-600 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:shadow-xl hover:shadow-white hover:scale-105 hover:bg-cyan-300 hover:-translate-y-2 transition-all duration-300 ease-in-out">Combined</div>
+                <div class="flex flex-col justify-center items-center bg-blue-500 h-auto p-3 rounded-2xl font-bold hover:scale-110 transition-transform duration-300 cursor-pointer">Scale effect</div>
+                <div class="flex flex-col justify-center items-center bg-purple-500 h-auto p-3 rounded-2xl font-bold hover:shadow-xl hover:shadow-white hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer">Shadow + scale</div>
+                <div class="flex flex-col justify-center items-center bg-green-500 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:bg-green-300">Color transition</div>
+                <div class="flex flex-col justify-center items-center bg-orange-500 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:rotate-5">Rotate effect</div>
+                <div class="flex flex-col justify-center items-center bg-pink-500 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:-translate-y-2 transition-all duration-300">Lift effect</div>
+                <div class="flex flex-col justify-center items-center bg-cyan-500 h-auto p-3 rounded-2xl font-bold cursor-pointer hover:shadow-xl hover:shadow-white hover:scale-105 hover:bg-cyan-300 hover:-translate-y-2 transition-all duration-300 ease-in-out">Combined</div>
             </div>
-        </div>
-
-        <!-- Card animations -->
-
+        </section>
         <div class="flex flex-col gap-5 mt-10 mb-10">
-
             <h1 class="ml-5 font-bold text-2xl">Card animations</h1>
-
             <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 xl:grid-cols-3">
                 <div class="flex flex-col bg-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl shadow-white">
                     <div class="size-10 bg-blue-400 rounded-xl transition-all duration-300 group-hover:"></div>
@@ -85,7 +70,6 @@
                         <p class="text-gray-500">hover:translate-y-2 hover:shadow-xl</p>
                     </div>
                 </div>
-
                 <div class="flex flex-col bg-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:scale-105">
                     <div class="size-10 bg-green-400 rounded-xl transition-all duration-300 group-hover:rotate-12"></div>
                     <div>
@@ -93,7 +77,6 @@
                         <p class="text-gray-500">hover:scale-105 group-hover:rotate-12</p>
                     </div>
                 </div>
-
                 <div class="flex flex-col bg-gray-600 border-4 border-gray-600 h-auto p-8 rounded-2xl gap-5 group transition-all duration-300 ease-in-out hover:border hover:border-purple-500">
                     <div class="size-10 bg-purple-400 rounded-xl transition-all duration-300 group-hover:translate-x-1"></div>
                     <div>
@@ -101,44 +84,37 @@
                         <p class="text-gray-500">hover:border-purple-500</p>
                     </div>
                 </div>
-
             </div>
-            
-
         </div>
 
-        <!-- Notification Badges -->
-
-        <div class="flex flex-col gap-5 mt-10 mb-10">
+        <section class="flex flex-col gap-5 mt-10 mb-10">
             <h1 class="ml-5 font-bold text-2xl">Notification Badges</h1>
             <div class="grid grid-cols-1 gap-30 md:grid-cols-3 md:gap-10 lg:grid-cols-10 lg:gap-20 xl:grid-cols-9 xl:gap-10 mt-5">
                 <div class="flex flex-col items-center justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
                     <div class=" relative h-15 w-20">
-                        <img src="assests/notification_icon.png" alt="notification_icon_img" >         
+                        <img src="assests/bell-icon.webp" alt="notification_icon_img" >         
                         <div class="size-7 bg-red-500 rounded-full absolute top-[-1.5rem] right-[-15.5rem] flex items-center justify-center animate-ping text-center md:right-[-4rem] lg:right-[-0.5rem] xl:right-[-1.1rem] 2xl:right-[-1.8rem] "></div>
                     </div>      
                 </div>
 
                 <div class="flex flex-col items-center justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
                     <div class="relative h-15 w-20">
-                        <img src="assests/message_icon.png" alt="message_icon_img">
+                        <img src="assests/message-icon.webp" alt="message_icon_img" class="">
                         <div class="size-7 bg-green-500 rounded-full font-bold absolute top-[-1.5rem] right-[-15.5rem]  flex items-center justify-center animate-pulse text-center md:right-[-4rem] lg:right-[-0.5rem] xl:right-[-1.1rem] 2xl:right-[-1.8rem]">3</div>
                     </div>
                 </div>
 
                 <div class="flex flex-col items-center justify-center bg-gray-600 border-4 border-gray-600 h-20 p-8 rounded-2xl">
                     <div class="relative h-15 w-20">
-                        <img src="assests/email.png" alt="email_icon_img">
+                        <img src="assests/email-icon.webp" alt="email_icon_img">
                         <div class="size-7 bg-cyan-500 rounded-full font-bold absolute top-[-1.5rem] right-[-15.5rem]  flex items-center justify-center animate-bounce text-center md:right-[-4rem] lg:right-[-0.5rem] xl:right-[-1.1rem] 2xl:right-[-1.8rem]">1</div>
                     </div>
                 </div>
             </div>
             
-        </div>
+        </section>
         
-        <!-- Loading States -->
-
-        <div class="flex flex-col gap-5 mt-10 mb-10">
+        <section class="flex flex-col gap-5 mt-10 mb-10">
             <h1 class="ml-5 font-bold text-2xl">Loading States</h1>
             <div class="grid grid-cols-1 gap-30 md:grid-cols-3 md:gap-10 lg:grid-cols-3 lg:gap-20 xl:grid-cols-3 xl:gap-10 mt-5">
 
@@ -168,19 +144,18 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
 
-        <!-- Staggered Animations -->
-        <div class="flex flex-col gap-5 mt-10 mb-30">
+        <section class="flex flex-col gap-5 mt-10 mb-30">
             <h1 class="ml-5 font-bold text-2xl">Staggered Animations (Delays)</h1>
             <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
-                <div class="rounded-xl p-8 font-bold bg-blue-500 text-center opacity-0 animate-[fade-up_0.8s_ease_forwards]" style="animation-delay:0s;">Delay-0</div>
+                <div class="rounded-xl p-8 font-bold bg-blue-500 text-center opacity-0 animate-[fade-up_0.8s_ease_forwards]" style="animation-delay:0ms;">Delay-0</div>
                 <div class="rounded-xl p-8 font-bold bg-purple-500 text-center opacity-0 animate-[fade-up_0.8s_ease_forwards]" style="animation-delay:150ms;">Delay-150</div>
                 <div class="rounded-xl p-8 font-bold bg-pink-500 text-center opacity-0 animate-[fade-up_0.8s_ease_forwards]" style="animation-delay:300ms;">Delay-300</div>
                 <div class="rounded-xl p-8 font-bold bg-orange-500 text-center opacity-0 animate-[fade-up_0.8s_ease_forwards]" style="animation-delay:500ms;">Delay-500</div>
             </div>
-        </div>
+        </section>
 
     </main>
 </body>
