@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+        <div class="user">
+            <span>Username</span>
+            <button id="logout">
+                <img src="logout icon.png" alt="logout-icon">
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="left">
+
+            <div class="items">
+                <h2>Added Items</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Service Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="cart-items">
+                        <tr>
+                            <td colspan="3">
+                                No Items Added <br>
+                                Add items to the cart from the services bar
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="total">
+                    <h3>Total Amount</h3>
+                    <h3 id="total-price">$0</h3>
+                </div>
+            </div>
+
+            <!-- Book Form -->
+            <div class="book">
+                <h2>Book Now</h2>
+
+                <form id="book-form">
+
+                    <label>Full Name</label>
+                    <input
+                        id="name"
+                        type="text"
+                        placeholder="Enter Full Name"
+                    >
+
+                    <div class="row">
+
+                        <div class="email">
+                            <label>Email ID</label>
+                            <input
+                                id="email"
+                                type="email"
+                                placeholder="mail@gmail.com"
+                            >
+                        </div>
+
+                        <div class="phone">
+                            <label>Phone Number</label>
+                            <input
+                                id="phone"
+                                type="tel"
+                                maxlength="10"
+                                placeholder="XXXXXXXXXX"
+                            >
+                        </div>
+
+                    </div>
+
+                    <button type="submit">
+                        Book Now
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="right">
+
+            <div class="services">
+
+                <h1>Browse Our Services</h1>
+
+                <p>
+                    Click on the add to cart button to add the services to your cart or press skip
+                </p>
+
+                <hr>
+
+                <img
+                    id="service-img"
+                    src="https://imgs.search.brave.com/Yi6cqFrUWlSnSOGB-gZA003anwq__yCgkPnH-KnH0Zo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9jYXJ0/b29uLWNoYXJhY3Rl/ci1mZW1hbGUtZHJ5/LWNsZWFuaW5nLXNl/cnZpY2Utd29ya2Vy/LWlyb25pbmctY2xv/dGhlcy1zbWFsbC1i/dXNpbmVzcy1zdGFy/dHVwLXdvcmtlci10/aW1lLXByb2Zlc3Np/b25hbC0yNzY1MDUx/MTMuanBn"
+                    alt="service-image"
+                >
+               
+                <div class="service-info">
+                    <h2 id="service-name">Dry Cleaning</h2>
+                    <h2 id="service-price">$80.00</h2>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="skip">
+                        Skip Item
+                    </button>
+
+                    <button class="add">
+                        Add Item
+                    </button>
+
+                </div>
+
+                <hr>
+
+                <p>
+                    Add the items to the cart and book now
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
