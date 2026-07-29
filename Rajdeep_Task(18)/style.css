@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color: grey; */
+}
+.greet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.greet-up{
+    display: flex;
+    gap: 7rem;
+    margin: 5rem;
+}
+.greet-up div{
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem;
+    align-content: center;
+    text-align: center;
+}
+.greet-btm{
+    display: flex;
+    gap: 2rem;
+}
+#btn{
+    height: 1.8rem;
+    width: 4rem;
+}
+#input{
+    height: 1.5rem;
+    width: 10rem;
+}
