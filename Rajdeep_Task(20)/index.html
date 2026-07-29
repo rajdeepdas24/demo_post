@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 20 (Laundry Mart)</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#booking-service-section">Services</a></li>
+
+                <li><a href="#about-us">About Us</a></li>
+
+                <li><a href="#contact-us">Contact Us</a></li>
+
+            </ul>
+
+            <button class="username-btn">
+                Username
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    Revitalize Your
+                </h1>
+
+                <h1>
+                    Clothes with Expert
+                </h1>
+
+                <h1 class="blue-text">
+                    Laundry Services!
+                </h1>
+
+                <p>
+                    From premium dry cleaning to swift wash and fold,
+                    we deliver care and convenience. Schedule a pickup
+                    and rediscover the freshness of your clothes today.
+                </p>
+
+                <a href="#booking-service-section">
+                    <button class="book-service-btn">
+                        Book a Service Today!
+                    </button>
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="https://imgs.search.brave.com/wu3Kgw0S0aOcSfEHtz-fQUQhPOwr5DL53xpf7rbNiUg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9mdW5u/eS13YXNoaW5nLW1h/Y2hpbmUtY2FydG9v/bi1jaGFyYWN0ZXIt/ZnVubnktd2FzaGlu/Zy1tYWNoaW5lLWNh/cnRvb24tY2hhcmFj/dGVyLWhvdXNlaG9s/ZC1hcHBsaWFuY2Ut/ZW1vdGlvbmFsLWZh/Y2UtaG9tZS0xMDEw/NzE3NTkuanBn" alt="photo of washing machine">
+
+
+            </div>
+
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+
+        <section class="achievements">
+
+            <div class="achievement-title">
+
+                <h2>
+                    Our Achievements
+                </h2>
+
+            </div>
+
+            <div class="achievement-box">
+
+                <div class="achievement-1">
+
+                    <h3>15+</h3>
+
+                    <p>Laundry Services</p>
+
+                </div>
+
+                <div class="achievement-2">
+
+                    <h3>240+</h3>
+
+                    <p>Happy Customers</p>
+
+                </div>
+
+                <div class="achievement-3">
+
+                    <h3>2+ Years</h3>
+
+                    <p>Experience</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="booking-service-section" id="booking-service-section">
+
+
+            <div class="left-service">
+
+                <h2>Our Services</h2>
+
+                <p id="our-service-para">
+                    Click on the Add Item button to add the services to your cart.
+                </p>
+
+                <div class="service-menu">
+
+                    <div class="service-item">
+
+                        <div class="service-info">
+
+                            <h4>Dry Cleaning</h4>
+
+                            <span class="price">₹200.00</span>
+
+                        </div>
+
+                        <button class="cart-btn">Add Item</button>
+
+                    </div>
+
+                    <div class="service-item">
+
+                        <div class="service-info">
+
+                            <h4>Wash & Fold</h4>
+
+                            <span class="price">₹100.00</span>
+
+                        </div>
+
+                        <button class="cart-btn">Add Item</button>
+
+                    </div>
+
+                    <div class="service-item">
+
+                        <div class="service-info">
+
+                        <h4>Ironing</h4>
+
+                    <span class="price">₹30.00</span>
+
+                </div>
+
+                <button class="cart-btn">Add Item</button>
+
+            </div>
+
+            <div class="service-item">
+
+                <div class="service-info">
+
+                    <h4>Stain Removal</h4>
+
+                    <span class="price">₹500.00</span>
+
+                </div>
+
+                <button class="cart-btn">Add Item</button>
+
+            </div>
+
+            <div class="service-item">
+
+                <div class="service-info">
+
+                    <h4>Leather & Suede Cleaning</h4>
+
+                    <span class="price">₹999.00</span>
+
+                </div>
+
+                <button class="cart-btn">Add Item</button>
+
+            </div>
+
+            <div class="service-item">
+
+                <div class="service-info">
+
+                    <h4>Wedding Dress Cleaning</h4>
+
+                    <span class="price">₹2800.00</span>
+
+                </div>
+
+                <button class="cart-btn">Add Item</button>
+
+            </div>
+
+        </div>
+
+        <p class="note">
+            Add the items to the cart and book now.
+        </p>
+
+    </div>
+
+
+    <div class="right-service">
+
+        <div class="cart-section">
+
+            <h2 id="cart-title">Added Items</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>S.No</th>
+
+                        <th>Service Name</th>
+
+                        <th>Price</th>
+
+                    </tr>
+
+                </thead>
+                    
+                <tbody id="cart-items">
+
+                    <tr id="empty-cart">
+                    
+                        <td colspan="3" class="empty-cart-message">
+                            No items added
+                        </td>
+                    
+                    </tr>
+
+                </tbody>
+                
+
+            </table>
+
+                <div class="total-amount">
+
+                    <h3>Total Amount</h3>
+
+                    <span id="total-price">₹0.00</span>
+
+                </div>
+
+        </div>
+
+        <div class="booking-form">
+
+            <h2>Book Now</h2>
+
+            <form id="booking-form">
+
+                <label for="fullname">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder="Enter Full Name"
+                >
+
+                <div class="input-row">
+
+                    <div class="input-box">
+
+                        <label for="email">
+                            Email ID
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter Email ID"
+                        >
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter Phone Number"
+                        >
+
+                    </div>
+
+                </div>
+
+                <button type="submit" class="book-btn">
+
+                    Book Now
+
+                </button>
+                <p id="booking-message"></p>
+            </form>
+
+            </section>
+
+<section class="support-subscribe">
+
+    <div class="reviews">
+
+        <div class="review">
+
+            <img class="image-of-reviews" src="https://imgs.search.brave.com/jhUkAmgHhRuwFqP7okqyyL-e0rfLq2XIAg_gixunz9E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9mcmll/bmRseS13YXNoaW5n/LW1hY2hpbmUtY2Fy/dG9vbi1jaGFyYWN0/ZXItY2hlZXJmdWwt/Y2FydG9vbi1pbGx1/c3RyYXRpb24td2Fz/aGluZy1tYWNoaW5l/LWZyaWVuZGx5LWZh/Y2UtYXJtcy0zOTgw/NzA0NjYuanBn" alt="premium-service-image">
+
+            <h3 class="review-heading">Premium Services</h3>
+
+            <p class="review-para">Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look fresh as good as new</p>
+
+        </div>
+
+        <div class="review">
+
+            <img class="image-of-reviews" src="https://imgs.search.brave.com/KZBNQo5YLbA4As4vUeqQSSOHR9eTuAtR67FeiubGJsI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvcGhvbmUt/aGFuZHNldC1zcGVl/Y2gtYnViYmxlLTNk/LTI2MG53LTIxMDE2/NDI2OTYuanBn" alt="premium-service-image">
+
+            <h3 class="review-heading">Quick Support</h3>
+
+            <p class="review-para">We're committed to providing prompt solutions to ensure your experience is smooth and worry-free</p>
+                
+        </div>
+
+        <div class="review">
+
+            <img class="image-of-reviews" src="https://imgs.search.brave.com/bqVFj1-WQV8XLn2RpaJeoIafzdtwqBq1zRGr-dVDd4s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDcv/OTU1LzIzOS9zbWFs/bC9mYXN0ZXItZGVs/aXZlcnktc2ltcGxl/LWxvZ28tdGVtcGxh/dGUtaWxsdXN0cmF0/aW9uLWRlc2lnbi1k/ZWxpdmVyeS12YW4t/bG9naXN0aWMtd2l0/aC13aW5ncy1mYXN0/LXN5bWJvbC1sb2dv/LWNvbmNlcHQtZnJl/ZS12ZWN0b3IuanBn" alt="premium-service-image">
+
+            <h3 class="review-heading">Hassle Free Delivery</h3>
+
+            <p class="review-para">Enjoy seamless service with our convenient pickup and delivery options, tailored to your schedule</p>
+
+        </div>
+
+        <div class="review">
+
+            <img class="image-of-reviews" src="https://imgs.search.brave.com/iMrQPlj_OeUotFUTN4ECfJY2mQVNKbf51Sx5BGgOoNw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aWNvbnM4LmNvbS9l/eHRlcm5hbC1mbGF0/aWNvbnMtbGluZWFs/LWNvbG9yLWZsYXQt/aWNvbnMvMTIwMC9l/eHRlcm5hbC1hZmZv/cmRhYmxlLWNsZWFu/aW5nLWZsYXRpY29u/cy1saW5lYWwtY29s/b3ItZmxhdC1pY29u/cy00LmpwZw" alt="premium-service-image">
+
+            <h3 class="review-heading">Affordable Prices</h3>
+            
+            <p class="review-para">Experience exceptional care without breaking the bank - our affordable prices make laundry day stress-free</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="subscribe">
+
+        <div class="left-subscribe">
+            <h3> Subscribe to our newspaper</h3>
+        </div>
+
+        <div class="right-subscribe">
+
+            <div class="input">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            
+            <div class="subscribe-btn">
+                <button id="subscribe-it">Subscribe</button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+
+    <section class="footer">
+
+        <div class="left-1">
+            <h3 class="footer-heading">Logo</h3>
+            <a href="#about-us" class="contact-2">About us</a>
+            <p class="footer-para">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="left-2">
+            <h3 class="footer-heading">Important Links</h3>
+            <a href="#about-us" class="footer-links">About us</a>
+            <a href="#about-us" class="footer-links">Contact us</a>
+            <a href="#about-us" class="footer-links">Privacy Policy</a>
+            <a href="#about-us" class="footer-links">Terms of use</a>
+            <a href="#about-us" class="footer-links">Refund Policy</a>
+        </div>
+
+        <div class="right-1">
+            <h3 class="footer-heading">Contact</h3>
+            <a href="#email" class="contact-2">mail@site.com</a>
+            <a href="#number" class="contact-2">+91 89542 09021</a>
+        </div>
+
+        <div class="right-2">
+            <h3 class="footer-heading">Follow Us</h3>
+            <img src="https://imgs.search.brave.com/LFjjQPcey6ZQg1otFZUl2rl6xd6kqlIefqH26hNmRKQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tdmVj/dG9yL2ZhY2Vib29r/LXR3aXR0ZXItaW5z/dGFncmFtLXlvdXR1/YmUtY29sbGVjdGlv/bi1wb3B1bGFyLXNv/Y2lhbC1tZWRpYS1s/b2dvLXZlY3Rvci1l/ZGl0b3JpYWwtaWxs/dXN0cmF0aW9uLXJp/dm5lLXVrcmFpbmUt/YXByaWwtMTAtMjAy/M181Nzk5NTYtNDYx/Ny5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQwJnE9ODA" alt="contact-img">
+        </div>
+    </section>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "8Il5XHQUCIyBArAWr"
+    });
+</script>
+
+<script src="script.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
