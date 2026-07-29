@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 25</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class=" m-0 p-0">
+    <header>
+        <nav class="sticky top-0 px-5">
+          <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+            <div class="flex gap-5 items-center">
+                <h1 class="font-bold text-xl">Greenwood</h1>
+                <div class="text-green-700 text-xs bg-green-200 pt-1 pb-1 rounded-full pl-2 pr-2">Open Sat</div>
+            </div>
+            <ul class=" hidden md:flex gap-8">
+                <li class="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 hover:after:w-full"><a href="#sections">Sections</a></li>
+                <li  class="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 hover:after:w-full"><a href="#gallery">Gallery</a></li>
+                <li  class="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 hover:after:w-full"><a href="#membership">Membership</a></li>
+                <li  class="relative after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-green-500 after:transition-all after:duration-300 hover:after:w-full"><a href="#events">Events</a></li>
+            </ul>
+            <Button class="rounded-full border-1 border-gray px-5 py-2 hidden md:block transition duration-300 hover:bg-black hover:text-white">Visit Us</Button>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+      <section class="mx-auto px-15 py-10  h-min-screen h-auto">
+        <div class="flex flex-col items-center justify-center gap-10  xl:flex-row">
+            <div id="left-hero-section" class="flex flex-col items-center justify-center gap-10 text-center xl:w-1/2 xl:text-left xl:items-start">
+                <h1 class="text-4xl font-bold md:text-4xl lg:text-4xl xl:text-4xl">Your Neighbourhood Library.</h1>
+                <p class="text-2xl text-gray-600 md:text-2xl lg:text-2xl xl:text-xl">Thousands of books, quiet reading rooms, community events, and free Wi-Fi - serving Greenwood since 1983.</p>
+                <span class="flex flex-col gap-5 justify-center md:flex-row md:justify-start">
+                    <button class="bg-black text-3xl text-white max-w-screen w-150 h-15 font-bold rounded-full md:w-auto md:pl-8 md:pr-8 md:pt-4 md:pb-10 md:h-19 xl:text-2xl xl:p-0 xl:pl-5 xl:pr-5">Explore Collection</button>
+                    <button class="text-3xl border-2 border-gray-200 max-w-screen w-150 h-15 font-bold rounded-full md:w-auto md:pl-8 md:pr-8 md:pt-4 md:pb-10 md:h-19 xl:text-2xl xl:p-0 xl:pl-5 xl:pr-5">Join Free</button>
+                </span>
+            </div>
+            <img src="assets/heros-section.jpg" alt="heroes-section-img" class="rounded-2xl max-w-screen h-auto md:h-[40rem] md:ml-10 md:mr-10 xl:w-auto xl:h-[20rem] xl:m-0 md:w-130 md:h-auto hover:scale-105 transition-all duration-500">
+        </div>
+        
+        <div class="mt-20 grid grid-cols-2 xl:grid-cols-4 max-w-6xl mx-auto gap-8">
+          <div class="flex flex-col items-center text-center gap-1">
+            <h1 class="font-bold text-2xl">12,000+</h1>
+            <p class="text-gray-400 text-md">Books & journals</p>
+          </div>
+          <div class="flex flex-col items-center text-center gap-1">
+            <h1 class="font-bold text-2xl">40+</h1>
+            <p class="text-gray-400 text-md">Years of service</p>
+          </div>
+          <div class="flex flex-col items-center text-center gap-1">
+            <h1 class="font-bold text-2xl text-green-600">Free</h1>
+            <p class="text-gray-400 text-md">Wi-Fi & basic access</p>
+          </div>
+          <div class="flex flex-col items-center text-center gap-1">
+            <h1 class="font-bold text-2xl">6</h1>
+            <p class="text-gray-400 text-md">Dedicated sections</p>
+          </div>
+        </div>
+    </section>
+
+    <section id="sections" class="mx-auto px-15 py-10 h-auto">
+      <h1 class="text-gray-400 pb-2 border-b text-2xl ml-5">OUR SECTION</h1>
+      <div class="grid grid-cols-2 gap-5 mt-10">
+        <div>
+          <h1>Fiction & Literature</h1>
+          <p>Novels, short stories, and poetry - from timeless classics to new voices.</p>
+          <h2>Browse Fiction</h2>
+        </div>
+        <div>
+          <h1>Children's corner</h1>
+          <p>Picture books, early readers, and a cozy space for young learners.</p>
+          <h2>Browse Children's</h2>
+        </div>
+        <div>
+          <h1>Science & Technology</h1>
+          <p>Research journals, textbooks, and STEM reference materials.</p>
+          <h2>Browse Science</h2>
+        </div>
+        <div>
+          <h1>History & Culture</h1>
+          <p>Local archives, world civilization, art history, and culture studies.</p>
+          <h2>Browse History</h2>
+        </div>
+        <div>
+          <h1>Periodicals & Newspapers</h1>
+          <p>daily papers, weekly magazines, and curated journal subscriptions.</p>
+          <h2>Browse Periodicals</h2>
+        </div>
+        <div>
+          <h1>Digital Media Lab</h1>
+          <p>Public computers, e-book access, and digital literacy resources.</p>
+          <h2>Browse Digital</h2>
+        </div>
+      </div>
+    </section>
+    </main>
+  </body>
+</html>
