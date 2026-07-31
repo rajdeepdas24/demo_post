@@ -6,7 +6,7 @@
     <title>Task 25</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class=" m-0 p-0">
+  <body class="font-sarif m-0 p-0">
     <header>
         <nav class="sticky top-0 px-5">
           <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
@@ -61,36 +61,76 @@
 
     <section id="sections" class="mx-auto px-15 py-10 h-auto">
       <h1 class="text-gray-400 pb-2 border-b text-2xl ml-5">OUR SECTION</h1>
-      <div class="grid grid-cols-2 gap-5 mt-10">
-        <div>
-          <h1>Fiction & Literature</h1>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 mx-5">
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-green-50">
+          <h1 class="font-bold group-hover:text-green-600">Fiction & Literature</h1>
           <p>Novels, short stories, and poetry - from timeless classics to new voices.</p>
-          <h2>Browse Fiction</h2>
+          <span class=" pb-1 border-b group-hover:border-green-500 group-hover:text-green-500">Browse Fiction</span>
         </div>
-        <div>
-          <h1>Children's corner</h1>
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-yellow-50">
+          <h1 class="font-bold group-hover:text-yellow-600">Children's corner</h1>
           <p>Picture books, early readers, and a cozy space for young learners.</p>
-          <h2>Browse Children's</h2>
+          <span class=" pb-1 border-b group-hover:border-yellow-500 group-hover:text-yellow-500">Browse Children's</span>
         </div>
-        <div>
-          <h1>Science & Technology</h1>
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-blue-50">
+          <h1 class="font-bold group-hover:text-blue-600">Science & Technology</h1>
           <p>Research journals, textbooks, and STEM reference materials.</p>
-          <h2>Browse Science</h2>
+          <span class=" pb-1 border-b group-hover:border-blue-500 group-hover:text-blue-500">Browse Science</span>
         </div>
-        <div>
-          <h1>History & Culture</h1>
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-pink-50">
+          <h1 class="font-bold group-hover:text-pink-600">History & Culture</h1>
           <p>Local archives, world civilization, art history, and culture studies.</p>
-          <h2>Browse History</h2>
+          <span class=" pb-1 border-b group-hover:border-pink-500 group-hover:text-pink-500">Browse History</span>
         </div>
-        <div>
-          <h1>Periodicals & Newspapers</h1>
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-purple-50">
+          <h1 class="font-bold group-hover:text-purple-600">Periodicals & Newspapers</h1>
           <p>daily papers, weekly magazines, and curated journal subscriptions.</p>
-          <h2>Browse Periodicals</h2>
+          <span class=" pb-1 border-b group-hover:border-purple-500 group-hover:text-purple-500">Browse Periodicals</span>
         </div>
-        <div>
-          <h1>Digital Media Lab</h1>
+        <div class="p-10 bg-gray-200 rounded-2xl group hover:bg-cyan-50">
+          <h1 class="font-bold group-hover:text-cyan-600">Digital Media Lab</h1>
           <p>Public computers, e-book access, and digital literacy resources.</p>
-          <h2>Browse Digital</h2>
+          <span class=" pb-1 border-b group-hover:border-cyan-500 group-hover:text-cyan-500">Browse Digital</span>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="gallery" class="mx-auto px-15 py-10 h-auto">
+      <h1 class="text-gray-400 pb-2 border-b text-2xl ml-5">OUR SPACES</h1>
+      <div class="flex justify-between mx-auto ml-5 mt-10">
+        <h1 class="text-2xl font-bold">Inside the Library</h1>
+        <button class="rounded-2xl border-1 px-3 py-1 border-gray-300">View All</button>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 ml-5">
+        <div class="group overflow-hidden rounded-lg">
+          <img src="assets/gallery-1.jpg" alt="gallery-1-img" class="w-full transition-transform duration-300 group-hover:scale-105 rounded-xl group-hover:rounded-xl">
+          <div class="flex justify-between mx-4 my-5">
+            <h1 class="text-xl font-bold">Reading Hall</h1>
+            <button class="rounded-2xl border-1 px-3 py-1 border-gray-300">Main Floor</button>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-lg">
+          <img src="assets/gallery-2.webp" alt="gallery-2-img" class="w-full transition-transform duration-300 group-hover:scale-105 rounded-xl group-hover:rounded-xl">
+          <div class="flex justify-between mx-4 my-5">
+            <h1 class="text-xl font-bold">Fiction Collection</h1>
+            <button class="rounded-2xl border-1 px-3 py-1 border-gray-300">2nd Floor</button>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-lg">
+          <img src="assets/gallery-3_625x350.jpg" alt="gallery-3-img" class="w-full transition-transform duration-300 group-hover:scale-105 rounded-xl group-hover:rounded-xl">
+          <div class="flex justify-between mx-4 my-5">
+            <h1 class="text-xl font-bold">archive Wing</h1>
+            <button class="rounded-2xl border-1 px-3 py-1 border-gray-300">Basement</button>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-lg">
+          <img src="assets/gallery-4_625x350.jpg" alt="gallery-4-img" class="w-full transition-transform duration-300 group-hover:scale-105 rounded-xl group-hover:rounded-xl">
+          <div class="flex justify-between mx-4 my-5">
+            <h1 class="text-xl font-bold">Digital Media Lab</h1>
+            <button class="rounded-2xl border-1 px-3 py-1 border-gray-300">Ground Floor</button>
+          </div>
         </div>
       </div>
     </section>
