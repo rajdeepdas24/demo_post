@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task-22</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="bg-white text-black mt-1 h-[10vh] w-full">
+        <nav class="flex  justify-between sticky top-0 z-0 w-full">
+            <div id="left-nav" class="flex">
+                <div>
+                    <img class="h-[4rem] w-[5rem]" src="assets/011-26.jpg" alt="logo-img">
+                </div>
+
+                <div class="font-bold text-2xl mt-3.5 ml-[-0.5rem]">
+                    Project
+                </div>
+            </div>
+
+            <div id="right-nav" class="flex mt-3.5 mr-10 ">
+                <ul class="flex justify-around gap-8">
+                    <li class=" font-bold mt-1 text-gray-600">Product</li>
+                    <li class=" font-bold mt-1 text-gray-600">Solutions</li>
+                    <li class=" font-bold mt-1 text-gray-600">Resources</li>
+                    <li class=" font-bold mt-1 text-gray-600">Pricing</li>
+                    <li class=" font-bold mt-1">Log in</li>
+                </ul>
+                <button class="font-bold border-2 relative bottom-2 pl-[1rem] pr-[1rem] bg-black text-white rounded-xl ml-5">Get AI free</button>
+            </div>
+        </nav>
+    </header>
+
+    <main >
+        <section class="bg-amber-100 h-[89vh] w-full">
+            <div id="title" class="flex flex-col justify-center items-center pt-[1.5rem]">
+                <h1 class="text-4xl font-bold">Write, plan, share.</h1>
+                <h1 class="text-4xl font-bold mt-1">With AI at your side.</h1>
+                <p class="text-xl font-medium mt-1 text-gray-500">It is the connected workspace where better, faster work happens. Now with AI.</p>
+            </div>
+
+            <div id="btns" class="flex justify-center mt-[2rem] gap-[3rem]">
+                <button class="text-xl text-white font-bold border-2 p-2 bg-black border-black rounded-xl" >Get AI free -></button>
+                <button class="text-xl text-white font-bold border-2 p-2 bg-blue-500 border-blue-500 rounded-xl">Request a demo</button>
+            </div>
+
+            <div id="images" class="h-[5vh] w-[50rem]">
+                <div id="tasks" class="bg-white w-[14rem] p-[1rem] rounded-2xl relative left-5 top-[10rem] shadow-xl ">
+                    <div class="flex ">
+                        <img class="w-[2rem] rounded-xl mr-1"  src="assets/task_icon.webp" alt="taskicon_img">
+                        <h1 class="mt-0.5 font-bold">Tasks</h1>
+                    </div>
+                    <h2>12 tasks completed today</h2>
+                </div>
+
+                <img class="w-[20rem] relative left-[30rem]" src="assets/80s-3.webp" alt="hero-img">
+
+                <div id="status" class="bg-white w-[13rem] p-[1rem] rounded-2xl relative left-[60rem] top-[-15rem] shadow-xl">
+                    <div class="flex ">
+                        <img class="w-[2rem] rounded-xl mr-1"  src="assets/green_tick.webp" alt="status-img">
+                        <h1 class="mt-0.5 font-bold">Project Status</h1>
+                    </div>
+                    <h2>On Track</h2>
+                </div>
+
+                <div id="activity" class="bg-white w-[10rem] p-[1rem] rounded-2xl flex flex-col relative left-[61rem] top-[-11rem] shadow-xl">
+                    <h1 class="font-bold">Team Activity</h1>
+                    <div class="flex ">
+                        <img class="w-[2rem] rounded-xl mr-1"  src="assets/user.webp" alt="user-img">
+                        <p class="mt-1">5-online</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative top-[12rem] left-[73rem] w-[4rem]">
+                    <img class="w-[4rem] p-3 border-2 rounded-xl"  src="assets/chat.webp" alt="chat-img">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
